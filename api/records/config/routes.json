@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/records",
+      "handler": "records.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/records",
+      "handler": "records.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/records",
+      "handler": "records.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "accesses",
+  "info": {
+    "name": "Access",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "accessKey": {
+      "type": "string"
+    }
+  }
+}

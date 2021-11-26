@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_event_relay_records",
+  "info": {
+    "name": "Relay Record",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Time": {
+      "type": "string"
+    },
+    "Athlete1": {
+      "type": "string"
+    },
+    "Athlete2": {
+      "type": "string"
+    },
+    "Athlete3": {
+      "type": "string"
+    },
+    "Athlete4": {
+      "type": "string"
+    },
+    "DateText": {
+      "type": "string"
+    }
+  }
+}

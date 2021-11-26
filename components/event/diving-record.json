@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_event_diving_records",
+  "info": {
+    "name": "Diving Record",
+    "icon": "street-view",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Score": {
+      "type": "string"
+    },
+    "Athlete": {
+      "type": "string"
+    },
+    "DateText": {
+      "type": "string"
+    }
+  }
+}

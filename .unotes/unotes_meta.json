@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "api": {
+      "name": "api",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "build": {
+      "name": "build",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "components": {
+      "name": "components",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "config": {
+      "name": "config",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "extensions": {
+      "name": "extensions",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "public": {
+      "name": "public",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    }
+  },
+  "files": {
+    "README": 0
+  }
+}

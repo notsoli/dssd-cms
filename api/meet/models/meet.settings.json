@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meets",
+  "info": {
+    "name": "Meet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "opponent": {
+      "type": "string"
+    },
+    "girlsHomeScore": {
+      "type": "integer"
+    },
+    "girlsOpponentScore": {
+      "type": "integer"
+    },
+    "girlsSpreadsheet": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "boysHomeScore": {
+      "type": "integer"
+    },
+    "boysOpponentScore": {
+      "type": "integer"
+    },
+    "boysSpreadsheet": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

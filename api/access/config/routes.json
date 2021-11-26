@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/access",
+      "handler": "access.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/access",
+      "handler": "access.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/access",
+      "handler": "access.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

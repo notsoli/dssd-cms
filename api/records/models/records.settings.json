@@ -1,0 +1,146 @@
+{
+  "kind": "singleType",
+  "collectionName": "records",
+  "info": {
+    "name": "Records",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Girls200MedleyRelay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.relay-record"
+    },
+    "Boys200MedleyRelay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.relay-record"
+    },
+    "Girls200Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys200Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Girls200IM": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys200IM": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Girls50Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys50Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "GirlsDiving6": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.diving-record"
+    },
+    "BoysDiving6": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.diving-record"
+    },
+    "GirlsDiving11": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.diving-record"
+    },
+    "BoysDiving11": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.diving-record"
+    },
+    "Girls100Fly": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys100Fly": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Girls100Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys100Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Girls200FreeRelay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.relay-record"
+    },
+    "Boys200FreeRelay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.relay-record"
+    },
+    "Girls100Back": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys100Back": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Girls100Breast": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys100Breast": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Girls400FreeRelay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.relay-record"
+    },
+    "Boys400FreeRelay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.relay-record"
+    },
+    "Girls500Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    },
+    "Boys500Free": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event.individual-record"
+    }
+  }
+}
