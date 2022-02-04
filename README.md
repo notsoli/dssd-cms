@@ -1,3 +1,3 @@
-# Strapi application
+# dssd-cms
 
-A quick description of your strapi application
+A Strapi application that interacts with [dssd](https://github.com/notsoli/dssd)
